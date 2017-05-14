@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play_option"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu_bg"
+    tools:context="readwithme.com.PlayOptionActivity">
+
+    <Button
+        android:id="@+id/cmd_back_option"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_left"
+        android:onClick="cmd_plaOption_Clicked"
+        android:tag="4" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/cmd_back_option"
+        android:background="@drawable/profile"
+        android:onClick="cmd_profile_Clicked" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_exit"
+        android:onClick="cmd_quit_Clicked" />
+
+
+    <RelativeLayout
+        android:layout_width="420dp"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@+id/img_teacher_option"
+                android:scaleType="fitXY"
+                android:src="@drawable/mainmenu_bubble" />
+
+            <ImageView
+                android:id="@+id/img_teacher_option"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/owl_spead_blue" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cmd_play_option"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_mm_lesson"
+                android:onClick="cmd_plaOption_Clicked"
+                android:tag="1" />
+
+            <Button
+                android:id="@+id/cmd_quiz_option"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="@drawable/button_mm_quiz"
+                android:onClick="cmd_plaOption_Clicked"
+                android:tag="2" />
+
+            <Button
+                android:id="@+id/cmd_activity_option"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_mm_activity"
+                android:onClick="cmd_plaOption_Clicked"
+                android:tag="3" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

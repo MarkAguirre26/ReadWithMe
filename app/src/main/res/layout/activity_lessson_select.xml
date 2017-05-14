@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lessson_select"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lesson_selection_bg"
+    tools:context="readwithme.com.LesssonSelectActivity">
+
+    <Button
+        android:id="@+id/id_left"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_left"
+        android:onClick="cmd_lesson_Clicked"
+        android:tag="0" />
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sign_lesson"
+        android:paddingTop="5dp">
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="90dp">
+
+            <LinearLayout
+                android:id="@+id/shapeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cmd_lesson_1"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_lesson_a"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="1" />
+
+                <Button
+                    android:id="@+id/cmd_lesson_2"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_lesson_b"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="2" />
+
+                <Button
+                    android:id="@+id/cmd_lesson_3"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_lesson_c"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="3" />
+
+                <Button
+                    android:id="@+id/cmd_lesson_4"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_lesson_d"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="4" />
+
+                <Button
+                    android:id="@+id/cmd_lesson_5"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_lesson_e"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="5" />
+
+                <Button
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/cmd_lesson_6"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_g3_lesson_1"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="6" />
+
+                <Button
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/cmd_lesson_7"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_g3_lesson_2"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="7" />
+
+                <Button
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/cmd_lesson_8"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_g2_lesson_1"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="8" />
+
+                <Button
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/cmd_lesson_9"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_g2_lesson_2"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="9" />
+
+                <Button
+
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/cmd_lesson_10"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_g2_lesson_3"
+                    android:onClick="cmd_lesson_Clicked"
+                    android:tag="10" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

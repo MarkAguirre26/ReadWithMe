@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_g1l3__i_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g1l5_bg"
+    tools:context="readwithme.com.g2A3subActivity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pause_home"
+        android:onClick="cmd_home_Clicked" />
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="320dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/g2a3_subject_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/g2a3_subject_2" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_g2a3_h1"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="105dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g2a3_h2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="105dp"
+            android:layout_marginLeft="130dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g2a3_h3"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="66dp"
+            android:layout_marginLeft="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+
+        <ImageView
+            android:id="@+id/img_g2a3_h4"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g2a3_h5"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="130dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="200dp">
+
+            <ImageView
+                android:id="@+id/img_g2a3_h6"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="105dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/highlight" />
+
+            <ImageView
+                android:id="@+id/img_g2a3_h7"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="105dp"
+                android:layout_marginLeft="130dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/highlight" />
+
+            <ImageView
+                android:id="@+id/img_g2a3_h8"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="66dp"
+                android:layout_marginLeft="70dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/highlight" />
+
+
+            <ImageView
+                android:id="@+id/img_g2a3_h9"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/highlight" />
+
+            <ImageView
+                android:id="@+id/img_g2a3_h10"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="130dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/highlight" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar_g2a3sub"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_g2a3sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tab_speack"
+        android:textOff=""
+        android:textOn="" />
+
+</RelativeLayout>

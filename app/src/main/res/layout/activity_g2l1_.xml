@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_g2l1_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lesson_5"
+    tools:context="readwithme.com.g2l1_Activity">
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pause_home"
+        android:onClick="cmd_home_Clicked" />
+
+    <Button
+        android:id="@+id/cmd_next_g2l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FFFFFF"
+        android:onClick="cmd_next_Clicked" />
+
+    <ImageView
+        android:id="@+id/img_teacher_g2l1"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/mr_favian" />
+
+    <ImageView
+        android:id="@+id/img_bubble_g1l5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="350dp"
+        android:layout_toRightOf="@+id/img_teacher_g2l1"
+        android:src="@drawable/g2l1_convo" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="200dp"
+        android:src="@drawable/a_g1l4">
+
+        <ImageView
+            android:id="@+id/img_subject_g2l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/g2l1_a" />
+
+    </RelativeLayout>
+
+
+    <ToggleButton
+        android:id="@+id/cmd_speak_g2l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/tab_speack" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_g2l1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

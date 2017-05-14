@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson_3___e"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lesson_3_e_bg"
+    tools:context="readwithme.com.Lesson_3_Activity_E">
+
+    <RelativeLayout
+        android:layout_width="800dp"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/lesson_3_sub_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lesson_3_activity_short_dress"
+                android:layout_marginRight="20dp"
+                android:tag="1" />
+
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lesson_3_activity_short_bell"
+                android:tag="1" />
+
+            <ImageView
+                android:layout_marginRight="50dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lesson_3_activity_short_shell"
+                android:tag="1" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lesson_3_activity_short_jet"
+                android:tag="1" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/lesson_3_activity_short_pen"
+                android:tag="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/g1l31_highlight"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/highlight_g1l4"
+                android:layout_marginRight="20dp"
+                android:tag="1" />
+
+            <ImageView
+                android:id="@+id/g1l32_highlight"
+                android:layout_marginRight="10dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/highlight_g1l4"
+                android:tag="1" />
+
+            <ImageView
+                android:id="@+id/g1l33_highlight"
+                android:layout_marginRight="50dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/highlight_g1l4"
+                android:tag="1" />
+
+            <ImageView
+                android:id="@+id/g1l34_highlight"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/highlight_g1l4"
+                android:tag="1" />
+
+            <ImageView
+                android:id="@+id/g1l35_highlight"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/highlight_g1l4"
+                android:tag="1" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar_lesson_3E"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_lesson_3E_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/tab_speack" />
+</RelativeLayout>

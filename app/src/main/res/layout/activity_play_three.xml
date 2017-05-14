@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play_three"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lesson_3"
+    tools:context="readwithme.com.PlayThreeActivity">
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pause_home"
+        android:onClick="cmd_home_Clicked" />
+
+    <RelativeLayout
+        android:id="@+id/rel_lesson_3_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img_fence_play_3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/fence" />
+
+        <ImageView
+            android:id="@+id/img_teacher_play_3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_above="@+id/img_fence_play_3"
+            android:layout_marginLeft="38dp"
+            android:src="@drawable/mr_favian" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/RelativeLayout_play_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img_vowels_long_play_3"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/lesson_3_play_cake_selected" />
+
+        <ImageView
+            android:id="@+id/img_vowels_short_play_3"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_vowels_long_play_3"
+            android:src="@drawable/lesson_3_play_apple" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar_lesson_3_play"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_lesson_3_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/tab_speack" />
+
+
+
+</RelativeLayout>

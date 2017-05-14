@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lesson_3"
+    tools:context="readwithme.com.PlayOneActivity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pause_home"
+        android:onClick="cmd_home_Clicked" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/fence" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+        <ToggleButton
+            android:id="@+id/toggleButton__lesson_1_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/tab_speack" />
+        <ImageView
+            android:id="@+id/img_lesson_1_play_consonant"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/lesson_1_play_boat" />
+
+        <Button
+            android:id="@+id/cmd_next_Play_lesson1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/img_lesson_1_play_consonant"
+            android:background="@drawable/button_right"
+            android:onClick="cmd_play_1_Clicked"
+            android:tag="4" />
+
+        <Button
+            android:id="@+id/cmd_back_Play_lesson1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/img_lesson_1_play_consonant"
+            android:background="@drawable/button_left"
+            android:onClick="cmd_play_1_Clicked"
+            android:tag="3" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_teacher_play_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="145dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/mr_favian" />
+
+    <RelativeLayout
+        android:id="@+id/rel_bubble"
+        android:layout_width="280dp"
+        android:layout_height="170dp"
+        android:layout_above="@+id/img_teacher_play_1"
+        android:layout_toRightOf="@+id/img_teacher_play_1">
+
+        <ImageView
+
+            android:id="@+id/img_bubble_play_1"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lesson_1_play_first_bubble" />
+
+        <Button
+            android:id="@+id/cmd_yes_Play_lesson_1"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+
+            android:background="@drawable/button_yes"
+            android:onClick="cmd_play_1_Clicked"
+            android:tag="1" />
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_lesson_consonant"
+        android:layout_width="250dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/rel_bubble"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/lesson_1_play_consonants" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar_lesson_1_play"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <ImageView
+        android:id="@+id/img_lesson_1_play_check"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/img_teacher_play_1"
+        android:layout_toLeftOf="@+id/rel_bubble"
+        android:layout_toStartOf="@+id/rel_bubble"
+        android:src="@drawable/check" />
+
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity__menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="readwithme.com.Activity_MenuActivity">
+
+    <LinearLayout
+        android:layout_width="435dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cmd_activity_1"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_a1"
+                    android:onClick="cmd_activityMenu_Clicked"
+                    android:tag="1" />
+
+                <Button
+                    android:id="@+id/cmd_activity_2"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_a2"
+                    android:onClick="cmd_activityMenu_Clicked"
+                    android:tag="2" />
+
+                <Button
+                    android:id="@+id/cmd_activity_3"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_a3"
+                    android:onClick="cmd_activityMenu_Clicked"
+                    android:tag="3" />
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/cmd_activity_4"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_a4"
+                    android:onClick="cmd_activityMenu_Clicked"
+                    android:tag="4" />
+                <Button
+                    android:id="@+id/cmd_activity_5"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_a5"
+                    android:onClick="cmd_activityMenu_Clicked"
+                    android:tag="5" />
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/title_activity" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_back"
+        android:onClick="cmd_activityMenu_Clicked"
+        android:tag="0" />
+</RelativeLayout>

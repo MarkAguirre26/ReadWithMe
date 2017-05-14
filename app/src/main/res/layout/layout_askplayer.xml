@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/name_confirmation_bg">
+
+
+    <ImageView
+        android:id="@+id/img_teacher"
+        android:layout_width="160dp"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="70dp"
+
+
+        android:src="@drawable/mr_favian" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:layout_toRightOf="@id/img_teacher">
+
+        <ImageView
+            android:id="@+id/img_bubble"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/convo" />
+
+        <TextView
+            android:id="@+id/txt_Askname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="45dp"
+
+            android:singleLine="true"
+            android:text="Mark"
+            android:textColor="#d18e51"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/id_sep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="37dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_toLeftOf="@id/id_sep"
+            android:background="@drawable/button_no"
+            android:onClick="cmd_AskName_Clicked"
+            android:tag="1" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/id_sep"
+            android:background="@drawable/button_yes"
+            android:onClick="cmd_AskName_Clicked"
+            android:tag="2" />
+    </RelativeLayout>
+</RelativeLayout>

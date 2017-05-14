@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_g1l3__i_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lesson_3_e_bg"
+    tools:context="readwithme.com.g2A1Activity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pause_home"
+        android:onClick="cmd_home_Clicked" />
+
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/g2a1_subject">
+
+        <ImageView
+            android:id="@+id/img_g2a1_h1"
+            android:layout_width="115dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g2a1_h2"
+            android:layout_width="115dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="60dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g2a1_h3"
+            android:layout_width="115dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="22dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g2a1_h4"
+            android:layout_width="115dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g2a1_h5"
+            android:layout_width="115dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="125dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar_g2a1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_g2a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tab_speack"
+        android:textOff=""
+        android:textOn="" />
+
+</RelativeLayout>

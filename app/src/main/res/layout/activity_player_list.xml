@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_teacher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_player"
+    tools:context="readwithme.com.PlayerListActivity">
+
+    include
+    layout="@layout/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="260dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/list_player" />
+
+        <ListView
+            android:id="@+id/lv_playerList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp" />
+
+
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp">
+
+            <Button
+                android:id="@+id/save_inputName"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_new"
+                android:onClick="cmd_PlayerList_Clicked"
+                android:tag="1" />
+
+            <Button
+
+                android:layout_width="100dp"
+                android:layout_height="38dp"
+                android:layout_toRightOf="@+id/save_inputName"
+                android:background="@drawable/button_cancel"
+                android:onClick="cmd_PlayerList_Clicked"
+                android:tag="2" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/name_confirmation_bg"
+    tools:context="readwithme.com.SignupActivity">
+
+   <include
+        android:id="@+id/sign_name_confirmation"
+        layout="@layout/layout_askplayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <include
+        android:id="@+id/sign_signup_entername"
+        layout="@layout/layout_signup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/sign_singup_age"
+        layout="@layout/layout_age"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/sign_singup_grade"
+        layout="@layout/layout_grade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_stripe"
+    tools:context="readwithme.com.LessonActivity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pause_home"
+        android:onClick="cmd_home_Clicked" />
+
+    <ImageView
+        android:id="@+id/img_faviantable"
+        android:layout_width="250dp"
+        android:layout_height="340dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/favianwithtable" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="340dp"
+        android:layout_above="@+id/board_lesson_1_quiz"
+        android:layout_toRightOf="@+id/img_faviantable"
+        android:src="@drawable/bubble_cloud"/>
+
+    <RelativeLayout
+        android:id="@+id/board_lesson_1_quiz"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/greenboardwithhand">
+
+        <ImageView
+            android:id="@+id/img_object"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bat" />
+
+        ImageView
+        android:id="@+id/img_subView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/whiteboard_small"
+        android:src="@drawable/bat" />
+
+        <TextView
+            android:id="@+id/txt_lesson_1_quiz"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/whiteboard_small"
+            android:gravity="center"
+            android:text="B"
+            android:textAlignment="center"
+            android:textColor="#cc0000"
+            android:textSize="80dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+
+        />
+
+    <ToggleButton
+        android:id="@+id/cmd_speakLessonOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tab_speack"
+        android:textOff=""
+        android:textOn="" />
+
+
+    Button
+    android:id="@+id/cmd_mic"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/button_micro"
+    android:onClick="cmd_lessonActivity_Clicked"
+    android:tag="1"
+    android:textAllCaps="false"
+
+    android:textSize="20sp"
+    android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson_3__menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lesson_3"
+    tools:context="readwithme.com.Lesson_3_Activity_menu">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_lesson_3_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img_fence_play_3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/fence" />
+
+        <ImageView
+            android:id="@+id/img_teacher_play_3"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_above="@+id/img_fence_play_3"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/mr_favian" />
+
+        <ImageView
+            android:id="@+id/img_bubble_play_3"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/img_teacher_play_3"
+            android:layout_toRightOf="@id/img_teacher_play_3"
+            android:src="@drawable/lesson_3_play_bubble" />
+
+        <ImageView
+            android:id="@+id/img_vowels_play_3"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/img_bubble_play_3"
+            android:layout_centerInParent="true"
+            android:src="@drawable/lesson_3_play_vowels" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="cmd_Lesson3_play_Clicked"
+            android:tag="1"
+            android:text="A"
+            android:textSize="35sp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="cmd_Lesson3_play_Clicked"
+            android:tag="2"
+            android:text="E"
+            android:textSize="35sp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="cmd_Lesson3_play_Clicked"
+            android:tag="3"
+            android:text="I"
+            android:textSize="35sp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="cmd_Lesson3_play_Clicked"
+            android:tag="4"
+            android:text="O"
+            android:textSize="35sp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="cmd_Lesson3_play_Clicked"
+            android:tag="5"
+            android:text="U"
+            android:textSize="35sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="readwithme.com">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/title"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="@android:icon">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".GradeSelectActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".LesssonSelectActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".LessonActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".AskPlayerActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".LessonTwoActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PlayOptionActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".QuitActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PlayerListActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".LessonThreeActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PlayOneActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PlayTwoActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PlayThreeActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PlayFourActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PlayFiveActivity"
+            android:screenOrientation="sensorLandscape" />
+
+        <service android:name=".BackgroundAudioService" />
+
+        <activity
+            android:name=".Lesson_3_Activity_menu"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Lesson_3_Activity_E"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Lesson_3_Activity_E_Long"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".SignupActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1A2Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".GreetingActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".QuizMenuActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Activity_MenuActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1l3_I_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2l1_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1l3_O_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1l3_U_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1l4_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1l5_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1q1_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1q3_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1q4_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g1q5_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2l2_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2l3_Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g3l1Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g3l2Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2A1Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2A2Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2A3Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2A3subActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2q2Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g2q3Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".FinishActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g3A1Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g3A2Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".g3Q1Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".PauseActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity android:name=".ProgressActivity"
+            android:screenOrientation="sensorLandscape"/>
+        <activity android:name=".g1A3_A_longActivity"
+            android:screenOrientation="sensorLandscape"></activity>
+    </application>
+
+</manifest>

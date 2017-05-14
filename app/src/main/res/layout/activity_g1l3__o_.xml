@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_g1l3__o_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lesson_3_e_bg"
+    tools:context="readwithme.com.g1l3_O_Activity">
+
+    <ImageView
+        android:id="@+id/ins_top"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/insrtyctiion_g1l4_aa" />
+
+    <RelativeLayout
+        android:layout_width="450dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/g1l3_o">
+
+        <ImageView
+            android:id="@+id/img_g1l3_o1"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="90dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g1l3_o2"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="90dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g1l3_o3"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="90dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g1l3_04"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="90dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+
+        <ImageView
+            android:id="@+id/img_g1l3_o5"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g1l3_06"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g1l3_o7"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g1l3_o8"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g1l3_09"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+        <ImageView
+            android:id="@+id/img_g1l3_010"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/highlight" />
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar_g1l3_O"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_lesson_g1l3_O"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tab_speack"
+        android:textOff=""
+        android:textOn="" />
+
+</RelativeLayout>
